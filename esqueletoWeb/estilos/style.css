@@ -1,14 +1,16 @@
 nav#menu h1{
     display: none;
 }
-
+div#pagina{
+    width: 600px;
+    background-color: rgb(143, 137, 143);
+}
 nav#navegacao ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 550px;
-
+    left: 600px;
 }
 nav#navegacao li{
     background-color:rgb(226, 164, 238);
@@ -18,12 +20,24 @@ nav#navegacao li{
     display:inline-block;
     transition: backgrond-color 1s;
 }
-
 nav#navegacao li:hover{
     background-color: rgb(180, 102, 174);
     color: rgb(255, 255, 255);
 }
-
-section {
-    background-color: rgb(218, 199, 212);
+article#noticias{
+    background-color: white;
 }
+article#noticias h1{
+    color:violet;
+}
+table#tabitens td{
+    border: 1px solid black;
+}
+table#tabitens tr{
+    color: rgb(255, 0, 21);
+}
+table#tabitens h3{
+    color: blue;
+    font-size: 36px;
+}
+
