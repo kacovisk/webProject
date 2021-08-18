@@ -1,7 +1,29 @@
-h1{
-   color: red;
-   background-color: rgb(208, 166, 228);
-   text-shadow: 1px 1px 1px 2px black;
-   text-align: left;
-   font-size: 50px;
+nav#menu h1{
+    display: none;
+}
+
+nav#navegacao ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 550px;
+
+}
+nav#navegacao li{
+    background-color:rgb(226, 164, 238);
+    box-shadow: 1px 1px 5px black;
+    padding: 5px;
+    margin: 2px;
+    display:inline-block;
+    transition: backgrond-color 1s;
+}
+
+nav#navegacao li:hover{
+    background-color: rgb(180, 102, 174);
+    color: rgb(255, 255, 255);
+}
+
+section {
+    background-color: rgb(218, 199, 212);
 }
