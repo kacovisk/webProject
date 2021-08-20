@@ -28,32 +28,51 @@ nav#navegacao li:hover{
     color: rgb(255, 255, 255);
 }
 article#novidades{
+    border: solid 1px 1px 1px 1px black;
     background-color: white;
     font-size: 26pt;
     padding: 20px;
 }
 article#novidades p{
     text-align: justify;
+    text-indent: 20px;
     font-size: 18pt;
 }
+h1{
+    font-family: cursive;
+    font-size: 40pt;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px #606060;
+}
 
-article#novidades h1{
+article#novidades h2{
+    font-size: 20pt;
     color:violet;
     text-shadow: 1px 1px 1px black;
 }
-table#tabitens td{
+div#listitens td{
     border: 1px solid black;
 }
-table#tabitens tr{
+div#listitens tr{
     color: rgb(255, 0, 21);
     
 }
-table#tabitens h3{
+div#listitens h3{
     color: rgb(250, 250, 252);
     font-size: 20px;
     background-color: rgb(165, 42, 165);
-    padding: 10px;
 }
+ul#lista {
+    background-color: burlywood;
+    width: 200px;
+}
+ section li{
+     width: 200px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     list-style: none;
+ }
+
 div#promo{
     background-color: rgb(164, 133, 179);
     border: solid black;
