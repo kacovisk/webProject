@@ -3,8 +3,9 @@ nav#menu h1{
 }
 div#pagina{
     width: 700px;
+    height: -20px;
     background-color: rgb(241, 217, 241);
-    margin: 50px;
+    margin: 10px;
     padding: 20px;
 }
 nav#navegacao ul{
@@ -26,11 +27,19 @@ nav#navegacao li:hover{
     background-color: rgb(180, 102, 174);
     color: rgb(255, 255, 255);
 }
-article#noticias{
+article#novidades{
     background-color: white;
+    font-size: 26pt;
+    padding: 20px;
 }
-article#noticias h1{
+article#novidades p{
+    text-align: justify;
+    font-size: 18pt;
+}
+
+article#novidades h1{
     color:violet;
+    text-shadow: 1px 1px 1px black;
 }
 table#tabitens td{
     border: 1px solid black;
@@ -44,6 +53,18 @@ table#tabitens h3{
     font-size: 20px;
     background-color: rgb(165, 42, 165);
     padding: 10px;
+}
+div#promo{
+    background-color: rgb(164, 133, 179);
+    border: solid black;
+    padding: 20px;
+}
+
+div#promo p{
+    font-size: 18pt;
+    border: solid black;
+    padding: 10px;
+    background-color: white;
 }
 
 aside{
